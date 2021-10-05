@@ -1,4 +1,11 @@
-/*//---------------------------------------------------------------------------
+/* 
+USE AS LINHAS ///-------------------PARA TESTAR OS CODIGOS, MUDANDO APENAS " * "
+     * ///------------------
+     / * //-------------------
+*/
+
+
+///---------------------------------------------------------------------------
 //Componente image....Desafio 1.
 
 import React, { Component } from "react";
@@ -59,7 +66,7 @@ class App extends Component {
 export default App;
 
 
-*///---------------------------------------------------------------------------
+/*//---------------------------------------------------------------------------
 //Componente image....Desafio 2.
 
 import React, { Component } from "react";
@@ -128,4 +135,4 @@ class Figura extends Component {
       />
     );
   }
-}
+}*///
