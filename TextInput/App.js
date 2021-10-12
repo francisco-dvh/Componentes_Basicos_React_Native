@@ -5,7 +5,7 @@ USE AS LINHAS ///-------------------PARA TESTAR OS CODIGOS, MUDANDO APENAS " * "
 */
 
 
-/*//---------------------------------------------------------------------------
+///---------------------------------------------------------------------------
 //Aula07....Desafio 1. 
 
 import React, { Component } from "react";
@@ -59,7 +59,7 @@ export default App;
 
 
 
-///---------------------------------------------------------------------------
+/*//---------------------------------------------------------------------------
 //Aula07....Desafio 1.1. 
 
 import React, { Component } from "react";
@@ -134,7 +134,7 @@ const estilos = StyleSheet.create({
 });
 export default App;
 
-*///---------------------------------------------------------------------------
+///---------------------------------------------------------------------------
 //Aula07....Desafio 02. 
 
 import React, { Component } from "react";
@@ -253,4 +253,4 @@ const estilos = StyleSheet.create({
     padding: 10,
   }
 });
-export default App;
+export default App;*///
