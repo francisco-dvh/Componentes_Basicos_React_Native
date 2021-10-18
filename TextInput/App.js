@@ -19,8 +19,8 @@ class App extends Component {
         <Text style={estilos.subtitulo}>Componente TextInput</Text>
         <Text style={estilos.paragrafo}>Digite o seu nome </Text>
         <TextInput style={estilos.entrada_texto} />
-        <Text style={estilos.paragrafo}>---Aqui srá apresentado a mesagem
-          dpois que o nome for digitado no componente TextInput---</Text>
+        <Text style={estilos.paragrafo}>---Aqui será apresentado a mesagem
+          depois que o nome for digitado no componente TextInput---</Text>
       </View>
 
     );
@@ -169,12 +169,12 @@ class App extends Component {
   //Fim da função capturaNome()
   //função chamada quando o componente TextInput recebe o foco
   mostra_msg_RecebeFoco() {
-    alert(' o componente recebeu o foco');
+    alert(' o componente recebeu o foco');   // colocar '//' para ser possivel preencher os dados na web pc!
   }
   // fim da função msotar_msg1()
   //função chamada quando o componente TextInput recebe o foco
   mosta_msg_PerdeFoco() {
-   alert('o componente perdeu o foco');
+   alert('o componente perdeu o foco');    // colocar '//' para ser possivel preencher os dados na web pc!
   }
 
   render() {
