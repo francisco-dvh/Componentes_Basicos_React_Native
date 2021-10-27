@@ -105,7 +105,7 @@ class App extends Component {
           <Image source={require('./image/logo.PNG')}
             style={{ width: 50, height: 50, marginHorizontal: 5 }} />
           <View>
-            <Text style={estilos.titulo}>AULA 08 - DESAFIO 01-MENDES</Text>
+            <Text style={estilos.titulo}>AULA 08 - DESAFIO 02-MENDES</Text>
             <Text style={estilos.sub_titulo}>Componente flatList</Text>
           </View >
         </View >
@@ -175,14 +175,12 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
 
 class App extends Component {
-  constructor(props)
-  {
+  constructor(props) {
     super(props);
     this.mostra_dados = this.mostra_dados.bind(this);
   };
-  mostra_dados({item})
-  {
-    return(
+  mostra_dados({ item }) {
+    return (
       <View>
         <Text>{item.nome}</Text>
         <Text>{item.email}</Text>
@@ -193,12 +191,18 @@ class App extends Component {
   }
   render() {
     let fonte_de_dados = [
-      {nome: 'Francisco Mendes', email: 'Franciscofdsmh@gmail.com',
-         curso:'Sistema de Informação', foto: './image/pessoa1.PNG'},
-      {nome: 'Fabiana Carraro', email: 'fabiana@fabiana.com.br',
-         curso: 'Redes de Computadores', foto: './image/pessoa2.PNG'},
-      {nome: 'Fernando Azambuja', email: 'fernando@fernando.com.br', 
-         curso: 'Tecnologia da Informação', foto: './image/pessoa3.PNG'}   
+      {
+        nome: 'Francisco Mendes', email: 'Franciscofdsmh@gmail.com',
+        curso: 'Sistema de Informação', foto: './image/pessoa1.PNG'
+      },
+      {
+        nome: 'Fabiana Carraro', email: 'fabiana@fabiana.com.br',
+        curso: 'Redes de Computadores', foto: './image/pessoa2.PNG'
+      },
+      {
+        nome: 'Fernando Azambuja', email: 'fernando@fernando.com.br',
+        curso: 'Tecnologia da Informação', foto: './image/pessoa3.PNG'
+      }
     ];
     return (
       <View style={estilos.area_fundo}>
@@ -206,7 +210,7 @@ class App extends Component {
           <Image source={require('./image/logo.PNG')}
             style={{ width: 50, height: 50, marginHorizontal: 5 }} />
           <View>
-            <Text style={estilos.titulo}>AULA 08 - DESAFIO 01-MENDES</Text>
+            <Text style={estilos.titulo}>AULA 08 - DESAFIO 03-MENDES</Text>
             <Text style={estilos.sub_titulo}>Componente flatList</Text>
           </View >
         </View >
@@ -299,8 +303,8 @@ class App extends Component {
          curso:'Sistema de Informação', foto: './image/pessoa1.PNG'},
       {nome: 'Fabiana Carraro', email: 'fabiana@fabiana.com.br',
          curso: 'Redes de Computadores', foto: './image/pessoa2.PNG'},
-      {nome: 'Fernando Azambuja', email: 'fernando@fernando.com.br', 
-         curso: 'Tecnologia da Informação', foto: './image/pessoa3.PNG'}  
+      {nome: 'Fernando Azambuja', email: 'fernando@fernando.com.br',
+         curso: 'Tecnologia da Informação', foto: './image/pessoa3.PNG'}
     ];
     return (
       <View style={estilos.area_fundo}>
@@ -308,7 +312,7 @@ class App extends Component {
           <Image source={require('./image/logo.PNG')}
             style={{ width: 50, height: 50, marginHorizontal: 5 }} />
           <View>
-            <Text style={estilos.titulo}>AULA 08 - DESAFIO 01-MENDES</Text>
+            <Text style={estilos.titulo}>AULA 08 - DESAFIO 03.1-MENDES</Text>
             <Text style={estilos.sub_titulo}>Componente flatList</Text>
           </View >
         </View >
@@ -373,11 +377,11 @@ const estilos = StyleSheet.create({
   }
 });
 export default App;
-*///---------------------------------------------------------------------------
+///---------------------------------------------------------------------------
 
-///----------------------------------------------------------------------------
+*///----------------------------------------------------------------------------
 //Componente FlatList....Desafio 03.2.
-//Mostrando a imagem do aluno. Posicionamento (LAYOUT).
+//Mostrando a imagem do aluno. Posicionamento (LAYOUT).  03.3
 
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
@@ -435,7 +439,7 @@ class App extends Component {
           <Image source={require('./image/logo.PNG')}
             style={{ width: 50, height: 50, marginHorizontal: 5 }} />
           <View>
-            <Text style={estilos.titulo}>AULA 08 - DESAFIO 01-MENDES</Text>
+            <Text style={estilos.titulo}>AULA 08 - DESAFIO 3.2 e 3.3 -MENDES</Text>
             <Text style={estilos.sub_titulo}>Componente flatList</Text>
           </View >
         </View >
