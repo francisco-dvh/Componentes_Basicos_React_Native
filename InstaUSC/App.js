@@ -355,11 +355,11 @@ class App extends Component {
         {/*Chamada do componente Feed */}
         <Feed />
         {/* área do rodapé do app*/}
-        <View style={estilos.area_footter}>
+        <View style={estilos.area_footer}>
           <TouchableOpacity>
             <Image
               source={require('./src/img/instaUSC_logo.png')}
-              style={{ width: 20, height: 50 }}
+              style={{ width: 50, height: 50 }}
               resizeMode='contain' />
           </TouchableOpacity>
           <View style ={{paddingLeft:'10'}}>
@@ -383,8 +383,12 @@ const estilos = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between'
   },
-  area_footter: {
-    backgroundColor: 'skyblue'
+  area_footer: {
+    alignItems:'center',
+    flexDirection:'row',
+    backgroundColor:'orange',
+    paddingHorizontal:10,
+    justifyContent:'space-between'
   }
 });
 export default App;
