@@ -833,10 +833,10 @@ class Feed extends Component {
                             <Text style={estilos.loc_pub}>{postagem.loc_pub}</Text>
                         </View>
                     </View>
-                    <View style={estilos.area_post_header_direita}>
-                        <View style={estilos.icone}>
-                            <TouchableOpacity style={estilos.botoes}>
-                                <Image style={estilos.icones_post_botoes}
+                    <View style={estilos.icones_post_botoes}>
+                        <View style={estilos.botoes}>
+                            <TouchableOpacity>
+                                <Image
                                     source={require('../../img/options@3x.png')}
                                     resizeMode='contain' />
                             </TouchableOpacity>
@@ -888,10 +888,8 @@ class Feed extends Component {
                         <Text style={estilos.dat_pub2}>- ver Tradução</Text>
                     </View>
                 </View>
-                <View style={estilos.area_post_footer}>
-                    <Text>Rodapé publicação</Text>
-                </View>
             </View>
+
         );
     }
     render() {
