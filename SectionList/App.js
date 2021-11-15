@@ -197,14 +197,14 @@ class App extends Component {
   render() {
     const AMÉRICA_DO_SUL = [
       { id: 1, title: 'Brasil ' },
-      { id: 2, title: 'Agentina ' },
+      { id: 2, title: 'Argentina ' },
       { id: 3, title: 'Peru ' }
     ]
     const AMÉRICA_CENTRAL = [
       { id: 4, title: 'Cuba ' },
       { id: 5, title: 'Haiti ' },
       { id: 6, title: 'Granada ' },
-      { id: 7, title: 'Lamaica ' },
+      { id: 7, title: 'Jamaica ' },
       { id: 8, title: 'Belize ' },
       { id: 9, title: 'Panamá ' },
       { id: 10, title: 'Costa Rica ' },
