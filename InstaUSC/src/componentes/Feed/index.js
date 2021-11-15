@@ -957,7 +957,7 @@ const estilos = StyleSheet.create({
         fontWeight: 'bold'
     },
     area_post_footer: {
-        backgroundColor: 'grey'
+     
     },
     img_autor: {
         width: 50,
